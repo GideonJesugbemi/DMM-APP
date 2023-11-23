@@ -12,6 +12,7 @@ import VehicleType from "../../components/card/VehicleType";
 import Altis from "../../assets/images/altis.jpg";
 import MobileApp from "../../components/mobileapp/MobileApp";
 import Newsletter from "../../components/newsletter/Newsletter";
+import TopOffer from "../../components/top-offers/Topoffer";
 
 
 
@@ -177,6 +178,7 @@ const Homepage = () => {
         </div>
         <MobileApp />
         <Newsletter />
+        <TopOffer />
       </div>
     </div>
   );

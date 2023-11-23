@@ -5,8 +5,8 @@ const Newsletter = () => {
   return (
     <div className="bg-zinc-100 rounded-3xl mx-10 p-5">
       <div className="p-4 space-x-10">
-        <div className="flex  mb-6">
-          <div>
+        <div className="flex space-x-24 mb-6">
+          <div className="ml-10">
             <h2 className="text-lg font-semibold">
               Be the first to get the latest offers
             </h2>
@@ -16,17 +16,17 @@ const Newsletter = () => {
           </div>
           <div>
             <div className="absolute flex bg-white items-center justify-end rounded-full  right-[] w-[45%] px-12 py-2 space-x-6">
-              <Button className="rounded-full bg-blue-950 px-10 py-3 right-3">
+              <Button className="rounded-full bg-blue-950 px-10 py-3 right-3 ">
                 Subscribe
               </Button>
             </div>
           </div>
         </div>
         <hr />
-        <p>
+        <p className="text-sm mt-4">
           Your privacy is important to us, so we'll never spam you or share your
           info with third parties. Take a look at our{" "}
-          <span>privacy policy.</span>
+          <span className="font-semibold">privacy policy.</span>
           <br></br>You can unsubscribe at any time.
         </p>
       </div>

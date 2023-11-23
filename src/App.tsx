@@ -6,6 +6,7 @@ import './index.css'
 import Homepage from './pages/homepage/Homepage';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
+import CarRental from './pages/car-rental/CarRental';
 
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Homepage />} />
-          {/* <Route path="/discovery" element={<Discovery />} /> */}
+          <Route path="/car" element={<CarRental />} />
           {/* <Route path="/bookevent" element={<BookEvent />} /> */}
           {/* <Route path="/reserveticket" element={<ReserveTicket />} /> */}
           {/* <Route path="/multiplecheckout" element={<MultipeCheckout />} /> */}

@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ThemeProvider } from "@material-tailwind/react";
 import "./index.css";
 import Homepage from "../pages/homepage/Homepage";
+import CarRental from "../pages/car-rental/CarRental";
 
 const AppRoute = () => {
   //   const isAuthenticated = localStorage.getItem("token");
@@ -22,6 +23,10 @@ const AppRoute = () => {
     {
       path: "/",
       element: <Homepage />,
+    },
+    {
+      path: "/car", 
+      element: <CarRental />,
     },
   ]);
 
