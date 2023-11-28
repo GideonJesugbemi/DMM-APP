@@ -6,7 +6,7 @@ import Mobilephone from "../../assets/images/mobile phone.png";
 
 const MobileApp = () => {
   return (
-    <div className="bg-cyan-100 rounded-3xl mt-32 mb-10 mx-10 p-3">
+    <div className="bg-cyan-100 rounded-3xl mt-32 mb-10 mx-10 p-3 max-w-[1180px] mx-auto">
       <div className="relative flex">
         <img src={Mobilephone} alt="phone" className="absolute bottom-[-5px]"/>
         <div className="ml-60 mt-10 ">

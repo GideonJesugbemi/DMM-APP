@@ -2,13 +2,13 @@ import React from 'react'
 
 const TopOffer = () => {
   return (
-    <div className='container mx-10 mb-10 mt-10'>
+    <div className='flex flex-col items-center justify-between my-10 w-full  my-10 w-full  p-4'>
       <div>
         <p className='font-thin'>DMM is Africa's leading, all inclusive full-service online travel company. Our portal gives customers the power of choice from a broad selection of top <br></br> travel deals, and the ability to research, plan and book their domestic and international travel  from  the comfort of their homes and everywhere they are.</p>
       </div>
-      <div>
+      <div className='flex flex-col items-center justify-between my-10 w-full '>
         <p className="font-thin mt-3 mb-6">Top Offers</p>
-        <div className="flex space-x-36">
+        <div className="flex flex-wrap justify-between gap-4">
           <div className='font-thin mb-1'>
             <h2 className='font-semibold mb-1'>Top Jet Charter Routes</h2>
             <p>Lagos to Abuja</p>

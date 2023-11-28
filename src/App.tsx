@@ -7,6 +7,11 @@ import Homepage from './pages/homepage/Homepage';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import CarRental from './pages/car-rental/CarRental';
+import PaymentCard from './pages/payment-card/PaymentCard';
+import PaymentConfirmation from './pages/payment-confirmation/PaymentConfirmation';
+import TruckLandingPage from './pages/truck-page/TruckLandingPage';
+import DriversPage from './pages/drivers-page/DriversPage';
+import TakeMeHome from './pages/take me home/TakeMeHome';
 
 
 const App = () => {
@@ -17,6 +22,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/car" element={<CarRental />} />
+          <Route path="/payment-card" element={<PaymentCard />} />
+          <Route path="/payment-confirmation" element={<PaymentConfirmation />} />
+          <Route path="/truck" element={<TruckLandingPage />} />
+          <Route path="/driver" element={<DriversPage />} />
+          <Route path="/driver/take-me-home" element={<TakeMeHome />} />
           {/* <Route path="/bookevent" element={<BookEvent />} /> */}
           {/* <Route path="/reserveticket" element={<ReserveTicket />} /> */}
           {/* <Route path="/multiplecheckout" element={<MultipeCheckout />} /> */}
