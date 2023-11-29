@@ -39,17 +39,17 @@ const Homepage = () => {
           }}
         >
           {/* <img src={Bentley} alt="homepage bg" className="" /> */}
-          <div className="flex flex-col items-center justify-center gap-4 font-semibold top-0 bottom-0 w-full  border-red-600">
-            <h1 className=" text-4xl text-white font-semibold bottom-[50%] top-[50%]">
+          <div className="relative flex flex-col items-center justify-center gap-4 font-semibold top-0 bottom-0 w-full  border-red-600">
+            <h1 className="absolute text-3xl text-white font-semibold bottom-[-150px] left-[110px]">
               Welcome to DMM Marketplace
             </h1>
 
-            <div className="  border-red-500 bottom-0 w-full">
-              <ul className="flex p-4 md:p-0 mt-4 font-normal text-lg items-center justify-around md:flex-row md:mt-0 md:border-0">
+            <div className="absolute  border-red-500 bottom-[-225px] left-[190px] w-full">
+              <ul className="flex p-1 md:p-0 mt-4 font-normal text-lg items-center justify-around md:flex-row md:mt-0 md:border-0">
                 <li className="hover:bg-yellow-300  rounded-full px-9 py-2.5">
                   <Link
                     className={
-                      "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
+                      "block py-2 pl-1 pr-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
                     }
                     to={"/car"}
                   >
@@ -60,7 +60,7 @@ const Homepage = () => {
                 <li className="hover:bg-yellow-300  rounded-full px-9 py-2.5">
                   <Link
                     className={
-                      "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
+                      "block py-2 pl-1 pr-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
                     }
                     to={"/jet"}
                   >
@@ -71,7 +71,7 @@ const Homepage = () => {
                 <li className="hover:bg-yellow-300  rounded-full px-9 py-2.5">
                   <Link
                     className={
-                      "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
+                      "block py-2 pl-1 pr-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
                     }
                     to={"/boat"}
                   >
@@ -82,7 +82,7 @@ const Homepage = () => {
                 <li className="hover:bg-yellow-300  rounded-full px-9 py-2.5">
                   <Link
                     className={
-                      "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
+                      "block py-2 pl-1 pr-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
                     }
                     to={"/driver"}
                   >
@@ -93,7 +93,7 @@ const Homepage = () => {
                 <li className="hover:bg-yellow-300  rounded-full px-9 py-2.5">
                   <Link
                     className={
-                      "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
+                      "block py-2 pl-1 pr-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
                     }
                     to={"/helicopter"}
                   >
@@ -104,7 +104,7 @@ const Homepage = () => {
                 <li className="hover:bg-yellow-300  rounded-full px-9 py-2.5">
                   <Link
                     className={
-                      "block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
+                      "block py-2 pl-1 pr-2 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-amber-700 md:p-0 dark:text-white"
                     }
                     to={"/truck"}
                   >
@@ -117,7 +117,7 @@ const Homepage = () => {
 
             {/* ..............................input fields............................ */}
 
-            <div className=" flex bg-white items-center justify-center rounded-full   px-2 py-2 ">
+            <div className="absolute flex bg-white items-center justify-center rounded-full bottom-[-300px] left-[210px]  px-2 py-2 ">
               <div className="bg-zinc-100 rounded-full py-1">
                 <p className="text-xs">From where?</p>
 

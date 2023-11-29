@@ -12,6 +12,9 @@ import PaymentConfirmation from './pages/payment-confirmation/PaymentConfirmatio
 import TruckLandingPage from './pages/truck-page/TruckLandingPage';
 import DriversPage from './pages/drivers-page/DriversPage';
 import TakeMeHome from './pages/take me home/TakeMeHome';
+import BookingConfirmation from './pages/booking-confirmation/BookingConfirmation';
+import DateUnavailable from './pages/dates-unavailable/DateUnavailable';
+import ConfirmedBooking from './pages/confirmedbooking/ConfirmedBooking';
 
 
 const App = () => {
@@ -27,9 +30,9 @@ const App = () => {
           <Route path="/truck" element={<TruckLandingPage />} />
           <Route path="/driver" element={<DriversPage />} />
           <Route path="/driver/take-me-home" element={<TakeMeHome />} />
-          {/* <Route path="/bookevent" element={<BookEvent />} /> */}
-          {/* <Route path="/reserveticket" element={<ReserveTicket />} /> */}
-          {/* <Route path="/multiplecheckout" element={<MultipeCheckout />} /> */}
+          <Route path="/booking-confirmation" element={<BookingConfirmation />} />
+          <Route path="/date-unavailable" element={<DateUnavailable />} />
+          <Route path="/confirmed-booking" element={<ConfirmedBooking />} />
           {/* <Route path="/checkout" element={<Checkout />} /> */}
           {/* <Route path="/successfulorder" element={<Successfulorder />} /> */}
           {/* <Route path="/virtualevents" element={<VirtualEvents />} /> */}

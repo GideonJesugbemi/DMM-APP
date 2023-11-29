@@ -41,7 +41,7 @@ const PaymentConfirmation = () => {
         </div>
 
 
-        <div className=" flex flex-col gap-2 rounded-md bg-gray-200">
+        <div className=" flex flex-col gap-2 rounded-md bg-gray-200 w-[40%]">
           <div className="  p-2 border-b-2 border-b-white">
             <p className="  font-semibold">Order Summary</p>
           </div>

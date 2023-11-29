@@ -3,7 +3,7 @@ import { Button, Card } from "@material-tailwind/react";
 
 const Newsletter = () => {
   return (
-    <div className="bg-zinc-100 rounded-3xl mx-10 p-5 border-4 max-w-[1180px] mx-auto">
+    <div className="bg-zinc-100 rounded-3xl p-5 border-4 max-w-[1180px] mx-auto">
       <div className="p-4 ">
 
         <div className="md:flex md:flex-row flex flex-col mb-6 justify-between gap-2">
