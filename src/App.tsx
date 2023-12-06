@@ -15,6 +15,7 @@ import TakeMeHome from './pages/take me home/TakeMeHome';
 import BookingConfirmation from './pages/booking-confirmation/BookingConfirmation';
 import DateUnavailable from './pages/dates-unavailable/DateUnavailable';
 import ConfirmedBooking from './pages/confirmedbooking/ConfirmedBooking';
+import BackToCar from './pages/back-to-car/BackToCar';
 
 
 const App = () => {
@@ -33,7 +34,7 @@ const App = () => {
           <Route path="/booking-confirmation" element={<BookingConfirmation />} />
           <Route path="/date-unavailable" element={<DateUnavailable />} />
           <Route path="/confirmed-booking" element={<ConfirmedBooking />} />
-          {/* <Route path="/checkout" element={<Checkout />} /> */}
+          <Route path="car/back-to-car" element={<BackToCar />} />
           {/* <Route path="/successfulorder" element={<Successfulorder />} /> */}
           {/* <Route path="/virtualevents" element={<VirtualEvents />} /> */}
         </Routes>

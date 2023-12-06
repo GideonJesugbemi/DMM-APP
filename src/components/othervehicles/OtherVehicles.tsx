@@ -7,7 +7,7 @@ import { SeeOtherVehiclesProps } from "../../assets/jsons/see-other-vehicle";
 const OtherVehicles: React.FC<SeeOtherVehiclesProps> = ({ ...otherVehicle }) => {
   return (
     <div>
-        <div className="flex w-[70%] mt-8 mb-8">
+        <div className="flex w-[100%] mt-8 mb-8">
               <div className="w-[50%]">
                 <img src={Honda} alt="" className="w-full h-full rounded-l-[30px]" />
               </div>
